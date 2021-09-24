@@ -12,7 +12,7 @@ import sys
 load_dotenv()
 
 # Get the access token from environment
-TOKEN = os.environ.get("GENIUS_SECRET")
+TOKEN = os.environ.get("TINDER_API_KEY")
 TINDER_URL = "https://api.gotinder.com"
 
 # Rate every possible interest to judge people by
